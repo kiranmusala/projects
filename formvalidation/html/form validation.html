@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/form validation.css">
+</head>
+<body class="form-body">
+    <section>
+        <div id="parent">
+            <img src="https://www.10000coders.co/assets/10000coders-logo.png?v=1.2" alt="10000coders"/>
+        </div>
+        <div class="form-div">
+            <form id="form">
+                <div id="top">
+                    <h3>Ready to get a well-paying IT job? Awesome!</h3>
+                    <p>Attend our job-guaranteed, 6-month full-stack developer training program. We will refund every single rupee back to you, if you do not get a job in 6 months</p>
+                </div><br>
+                <div>
+                    <label for="_name"><strong>Name:</strong></label><br>
+                    <input type="text" name="_name" id="_name"/>
+                    <p id="nameErr"></p>
+                </div><br>
+                <div>
+                    <label for="email"><strong>Email Id:</strong></label><br>
+                    <input type="email" name="email" id="email"/>
+                    <p id="emailErr"></p>
+                </div><br>
+                <div>
+                    <label for="phonenumber"><strong>Phone Number:</strong></label><br>
+                    <input type="tel" id="phonenumber"/>
+                    <p id="phoneErr"></p>
+                </div><br>
+                <div>
+                    <label for="degreedetails"><strong>Degree Details:</strong></label><br>
+                    <select id="degreedetails"name="degreedetails">
+                        <option value="select">-Select-</option>
+                        <option value="BE/BTech/MTech">BE/BTech/MTech"</option>
+                        <option value="MCA/BCA">MCA/BCA</option>
+                        <option value="BA/BCom/BSc">BA/BCom/BSc</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <p id="degreeErr"></p>
+                </div><br>
+                <div>
+                    <label for="yearofpass"><strong>Year of Pass:</strong></label><br>
+                    <select id="yearofpass" name="yearofpass">
+                        <option value="select">-Select-</option>
+                        <option value="Still pursuing">Still Pursuing</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <p id="yearErr"></p>
+                </div><br>
+                <div >
+                    <label for="presentstatus"><strong>Present Status:</strong></label><br>
+                    <select id="presentstatus" name="presentstatus">
+                        <option value="select">-Select-</option>
+                        <option value="student">Student</option>
+                        <option value="working">Working</option>
+                        <option value="looking for a job">Looking for a job</option>
+                    </select>
+                    <p id="statusErr"></p>
+                </div><br>
+                <div>
+                    <label for="textarea"><strong>Please share questions if you have any?</strong></label><br>
+                    <textarea name="textarea" id="textarea" cols="30" rows="5"></textarea> 
+                    <p id="textErr"></p>
+                </div><br>
+                <input type="submit" value="Submit" id="submit"><br><br>
+              
+             </form>
+        </div>
+    </section>
+    <script src="../javascript/form validation.js"></script>
+</body>

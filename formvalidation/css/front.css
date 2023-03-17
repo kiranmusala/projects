@@ -1,0 +1,16 @@
+body {
+    font-family: Nunito,sans-serif; font-size: 20px; font-weight: 400; line-height: 1.5; color: #212529; 
+}
+header {
+    display: flex; position: sticky; background-color: #F3F3F5; margin: 10px; padding: 40px; 
+}
+header ul {
+    display: flex; list-style-type: none; justify-content: space-around; align-items: center; flex: 1; padding-left: 80px;
+} 
+#banner {
+    display: flex; justify-content: space-around; align-items: center; margin: 40px; padding: 50px;
+}
+.selector {
+    background-color: #ff6d00; font-size: 18px; line-height: 22px; font-weight: 600; color: #fff; letter-spacing: 1px;
+    border-radius: 5px 5px; padding: 20px 30px; display: inline-block; border: none;
+}

@@ -1,0 +1,46 @@
+
+body {
+    background-color: #F3F3F5;
+}
+.form-body{
+    height:100vh;
+}
+#top{
+    background-color: gray;
+    font-size: 25px;
+}
+.form-div {
+    background-color:white; width: 50%; border: 250px; padding: 50px; margin: auto;
+}
+#_name{
+    width:360px;
+    height:30px;
+}
+#email{
+    width:360px;
+    height:30px;
+}
+#degreedetails{
+    width:360px;
+    height:30px;  
+}
+#yearofpass{
+    width:360px;
+    height:30px;   
+}
+#presentstatus{
+    width:360px;
+    height:30px;
+}
+#textarea{
+    width:360px;
+    height:80px;  
+}
+#phonenumber{
+    width:360px;
+    height:30px; 
+}
+#submit{
+   margin-left: 500px;
+   background-color: skyblue;
+}

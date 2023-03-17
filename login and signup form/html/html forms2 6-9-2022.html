@@ -1,0 +1,67 @@
+<html>
+    <head><title>html forms</title></head>
+    <style>
+        body{
+            text-align: center;
+        background-color:lightseagreen;
+        }
+    </style>
+    <body>
+        <h1 align="center">Personal Details </h1>
+        <form> 
+        <div>
+        <label for="Namecontent"><strong>Name :</strong></label>
+        <input type="text" name="" id="Namecontent"/>
+    </div><br>
+    <div>
+        <label for="Passwordcontent"><strong>Password :</strong></label>
+        <input type="password" name="" id="Passwordcontent"/>
+    </div><br> 
+    <div>
+        <label for="emailidcontent"><strong>Email id :</strong></label>
+        <input type="email" name="" id="emailidcontent"/>
+    </div><br>
+   <div>
+    <label>Gender</label>
+    <input type="radio" name="Gender" value="Male"/>Male
+    <input type="radio" name="Gender" value="Female"/>Female
+   </div>
+   <h1 align="center">Educational qualification</h1>
+    <div>
+        <div>
+            <label for="Degree">Degree:</label>
+            <select class="" name="" id="">
+                <option value="--selecting groups">--selecting groups </option>  
+              <option value="BSC">BSC</option>
+              <option value="BCA">BCA</option>
+              <option value="BED">BED</option>
+              <option value="BCOM">BCOM</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="Engineering">Engineering:</label>
+            <select class=""name="" id="">
+                <option value="--selecting groups">--selecting groups</option>
+              <option value="Civil">Civil</option>
+              <option value="CSE">CSE</option>
+              <option value="ECE">ECE</option>
+              <option value="IT">IT</option>
+            </select>
+        </div><br>
+        <div>
+           <label>hobbies</label>
+           <input type="radio" name="hobbies" value="readingbooks">readingbooks
+           <input type="radio" name="hobbies" value="playingchess">playingchess
+        </div><br>
+        <h1>Address</h1>
+       
+        <textarea rows="3" cols="30" name="address" id="address"></textarea>
+        <br><br>
+        <div>
+            <label>Attach resume :</label>
+            <input type="file" name=""/>
+        </div><br><br>
+         <input type="submit"/>
+     </form>
+    </body>
+</html>
