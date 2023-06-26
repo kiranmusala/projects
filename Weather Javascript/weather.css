@@ -1,0 +1,14 @@
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+}
+body{
+    background-image: url(cool.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
